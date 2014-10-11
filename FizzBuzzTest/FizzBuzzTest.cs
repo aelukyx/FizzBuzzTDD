@@ -25,51 +25,36 @@ namespace FizzBuzzTest
         [Test]
         public void TestNumero1()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(1);
-
             // Assert
-            Assert.AreEqual("1", num);
+            Assert.AreEqual("1", RefactorNumber(1));
         }
 
         [Test]
         public void TestNumero2()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(2);
-
             // Assert
-            Assert.AreEqual("2", num);
+            Assert.AreEqual("2", RefactorNumber(2));
         }
 
         [Test]
         public void TestNumero3()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(3);
-
             // Assert
-            Assert.AreEqual("Fizz", num);
+            Assert.AreEqual("Fizz", RefactorNumber(3));
         }
 
         [Test]
         public void TestNumero4()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(4);
-
             // Assert
-            Assert.AreEqual("4", num);
+            Assert.AreEqual("4", RefactorNumber(10));
         }
 
         [Test]
         public void TestNumero5()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(5);
-
             // Assert
-            Assert.AreEqual("Buzz", num);
+            Assert.AreEqual("Buzz", RefactorNumber(5));
         }
 
         [Test]
@@ -79,7 +64,7 @@ namespace FizzBuzzTest
             var num = fizzBuzz.IsFizzOrBuzz(15);
 
             // Assert
-            Assert.AreEqual("FizzBuzz", num);
+            Assert.AreEqual("FizzBuzz", RefactorNumber(15));
         }
 
         [Test]
@@ -89,7 +74,7 @@ namespace FizzBuzzTest
             var num = fizzBuzz.IsFizzOrBuzz(0);
 
             // Assert
-            Assert.AreEqual("Error Numero Menor o Igual que Cero", num);
+            Assert.AreEqual("Error Numero Menor o Igual que Cero", RefactorNumber(0));
         }
 
         [Test]
@@ -99,17 +84,34 @@ namespace FizzBuzzTest
             var num = fizzBuzz.IsFizzOrBuzz(-1);
 
             // Assert
-            Assert.AreEqual("Error Numero Menor o Igual que Cero", num);
+            Assert.AreEqual("Error Numero Menor o Igual que Cero", RefactorNumber(-1));
         }
 
         [Test]
         public void TestNumero75()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(75);
-
             // Assert
-            Assert.AreEqual("AunNoSe", num);
+            Assert.AreEqual("FizzBuzz", RefactorNumber(75));
+        }
+
+        [Test]
+        public void TestNumero9()
+        {
+            // Assert
+            Assert.AreEqual("Fizz", RefactorNumber(9));
+        }
+
+        [Test]
+        public void TestNumero10()
+        {
+            // Assert
+            Assert.AreEqual("Buzz", RefactorNumber(10));
+        }
+
+        private string RefactorNumber(int num)
+        {
+            var numResul = fizzBuzz.IsFizzOrBuzz(num);
+            return numResul;
         }
     }
 }

@@ -5,8 +5,8 @@
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
     <Node UniqueName="[0-1000]C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\NunitFizzBuzzTestAlex.nunit" Expanded="true" />
-    <Node UniqueName="[0-1011]C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\FizzBuzzTest\bin\Release\FizzBuzzTest.dll" Expanded="true" />
-    <Node UniqueName="[0-1012]FizzBuzzTest" Expanded="true" />
+    <Node UniqueName="[0-1013]C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\FizzBuzzTest\bin\Release\FizzBuzzTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1014]FizzBuzzTest" Expanded="true" />
     <Node UniqueName="[0-1001]FizzBuzzTest.FizzBuzzTest" Expanded="true" />
   </Nodes>
 </VisualState>
