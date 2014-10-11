@@ -47,7 +47,7 @@ namespace FizzBuzzTest
         public void TestNumero4()
         {
             // Assert
-            Assert.AreEqual("4", RefactorNumber(10));
+            Assert.AreEqual("4", RefactorNumber(4));
         }
 
         [Test]
@@ -60,9 +60,6 @@ namespace FizzBuzzTest
         [Test]
         public void TestNumero15()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(15);
-
             // Assert
             Assert.AreEqual("FizzBuzz", RefactorNumber(15));
         }
@@ -70,9 +67,6 @@ namespace FizzBuzzTest
         [Test]
         public void TestNumero0()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(0);
-
             // Assert
             Assert.AreEqual("Error Numero Menor o Igual que Cero", RefactorNumber(0));
         }
@@ -80,9 +74,6 @@ namespace FizzBuzzTest
         [Test]
         public void TestNumero1Negativo()
         {
-            // Act
-            var num = fizzBuzz.IsFizzOrBuzz(-1);
-
             // Assert
             Assert.AreEqual("Error Numero Menor o Igual que Cero", RefactorNumber(-1));
         }

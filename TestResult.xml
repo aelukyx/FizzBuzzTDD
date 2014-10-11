@@ -1,33 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\NunitFizzBuzzTestAlex.nunit" total="11" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-10-11" time="15:23:21">
+<test-results name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\NunitFizzBuzzTestAlex.nunit" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-10-11" time="15:26:46">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="ARCG-PC" user="Alex" user-domain="ARCG-PC" />
   <culture-info current-culture="es-PE" current-uiculture="es-ES" />
-  <test-suite type="Project" name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\NunitFizzBuzzTestAlex.nunit" executed="True" result="Failure" success="False" time="0.239" asserts="0">
+  <test-suite type="Project" name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\NunitFizzBuzzTestAlex.nunit" executed="True" result="Success" success="True" time="0.381" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\FizzBuzzTest\bin\Release\FizzBuzzTest.dll" executed="True" result="Failure" success="False" time="0.211" asserts="0">
+      <test-suite type="Assembly" name="C:\Users\Alex\Documents\GifHubRepositorios\FizzBuzzTDD\FizzBuzzTest\bin\Release\FizzBuzzTest.dll" executed="True" result="Success" success="True" time="0.353" asserts="0">
         <results>
-          <test-suite type="Namespace" name="FizzBuzzTest" executed="True" result="Failure" success="False" time="0.211" asserts="0">
+          <test-suite type="Namespace" name="FizzBuzzTest" executed="True" result="Success" success="True" time="0.353" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="FizzBuzzTest" executed="True" result="Failure" success="False" time="0.206" asserts="0">
+              <test-suite type="TestFixture" name="FizzBuzzTest" executed="True" result="Success" success="True" time="0.349" asserts="0">
                 <results>
-                  <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero0" executed="True" result="Success" success="True" time="0.099" asserts="1" />
+                  <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero0" executed="True" result="Success" success="True" time="0.246" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero1" executed="True" result="Success" success="True" time="0.004" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero10" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero15" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero1Negativo" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero2" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero3" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero4" executed="True" result="Failure" success="False" time="0.036" asserts="1">
-                    <failure>
-                      <message><![CDATA[  Expected string length 1 but was 4. Strings differ at index 0.
-  Expected: "4"
-  But was:  "Buzz"
-  -----------^
-]]></message>
-                      <stack-trace><![CDATA[]]></stack-trace>
-                    </failure>
-                  </test-case>
+                  <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero4" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero5" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero75" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="FizzBuzzTest.FizzBuzzTest.TestNumero9" executed="True" result="Success" success="True" time="0.001" asserts="1" />
