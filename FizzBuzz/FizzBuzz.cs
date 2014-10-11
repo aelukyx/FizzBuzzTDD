@@ -12,15 +12,9 @@ namespace FizzBuzz
         {
             var solution = "";
 
-            if (num == 1)
+            if ((num % 3 == 0) && (num % 5 == 0))
             {
-                solution = Convert.ToString(num);
-
-            }
-
-            else if (num == 2)
-            {
-                solution = Convert.ToString(num);
+                solution = "FizzBuzz";
 
             }
 
@@ -30,22 +24,15 @@ namespace FizzBuzz
 
             }
 
-            else if (num == 4)
-            {
-                solution = Convert.ToString(num);
-
-            }
-
             else if (num % 5 == 0)
             {
                 solution = "Buzz";
 
             }
 
-            else if (num % 3 == 0 && num % 5 == 0)
+            else 
             {
-                solution = "FizzBuzz";
-
+                solution = Convert.ToString(num);
             }
 
             return solution;
