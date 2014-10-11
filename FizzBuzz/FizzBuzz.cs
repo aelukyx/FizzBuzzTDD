@@ -14,23 +14,19 @@ namespace FizzBuzz
 
             if (num > 0)
             {
-
                 if ((num % 3 == 0) && (num % 5 == 0))
                 {
                     solution = "FizzBuzz";
-
                 }
 
                 else if (num % 3 == 0)
                 {
                     solution = "Fizz";
-
                 }
 
                 else if (num % 5 == 0)
                 {
                     solution = "Buzz";
-
                 }
 
                 else
@@ -43,7 +39,5 @@ namespace FizzBuzz
 
             return ("Error Numero Menor o Igual que Cero");
         }
-
-
     }
 }

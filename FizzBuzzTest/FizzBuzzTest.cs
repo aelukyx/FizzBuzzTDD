@@ -101,5 +101,15 @@ namespace FizzBuzzTest
             // Assert
             Assert.AreEqual("Error Numero Menor o Igual que Cero", num);
         }
+
+        [Test]
+        public void TestNumero75()
+        {
+            // Act
+            var num = fizzBuzz.IsFizzOrBuzz(75);
+
+            // Assert
+            Assert.AreEqual("AunNoSe", num);
+        }
     }
 }
