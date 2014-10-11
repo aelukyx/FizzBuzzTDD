@@ -72,6 +72,15 @@ namespace FizzBuzzTest
             Assert.AreEqual("Buzz", num);
         }
 
+        [Test]
+        public void TestNumero15()
+        {
+            // Act
+            var num = fizzBuzz.IsFizzOrBuzz(15);
+
+            // Assert
+            Assert.AreEqual("FizzBuzz", num);
+        }
 
     }
 
