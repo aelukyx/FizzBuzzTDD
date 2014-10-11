@@ -18,6 +18,12 @@ namespace FizzBuzz
 
             }
 
+            else if (num == 2)
+            {
+                solution = Convert.ToString(num);
+
+            }
+
             return solution;
         }
 
