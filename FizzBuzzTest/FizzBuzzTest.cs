@@ -82,6 +82,24 @@ namespace FizzBuzzTest
             Assert.AreEqual("FizzBuzz", num);
         }
 
-    }
+        [Test]
+        public void TestNumero0()
+        {
+            // Act
+            var num = fizzBuzz.IsFizzOrBuzz(0);
 
+            // Assert
+            Assert.AreEqual("Error Numero Menor o Igual que Cero", num);
+        }
+
+        [Test]
+        public void TestNumero1Negativo()
+        {
+            // Act
+            var num = fizzBuzz.IsFizzOrBuzz(-1);
+
+            // Assert
+            Assert.AreEqual("Error Numero Menor o Igual que Cero", num);
+        }
+    }
 }
