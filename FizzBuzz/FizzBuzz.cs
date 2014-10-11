@@ -30,6 +30,18 @@ namespace FizzBuzz
 
             }
 
+            else if (num == 4)
+            {
+                solution = Convert.ToString(num);
+
+            }
+
+            else if (num % 5 == 0)
+            {
+                solution = "Buzz";
+
+            }
+
             return solution;
         }
 
