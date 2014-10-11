@@ -49,7 +49,7 @@ namespace FizzBuzzTest
             var num = fizzBuzz.IsFizzOrBuzz(3);
 
             // Assert
-            Assert.AreEqual("3", num);
+            Assert.AreEqual("Fizz", num);
         }
 
 

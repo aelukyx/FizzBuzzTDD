@@ -24,6 +24,12 @@ namespace FizzBuzz
 
             }
 
+            else if (num % 3 == 0)
+            {
+                solution = "Fizz";
+
+            }
+
             return solution;
         }
 
